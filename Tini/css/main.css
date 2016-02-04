@@ -1,0 +1,88 @@
+header {
+	background-color: #FCCE09;
+	color: white;
+	height: 650px;
+	padding: 20px;
+}
+header .col-5, header .col-4 {
+	padding: 0;
+}
+button {
+	background: #FCBA43;
+	border: none;
+	color: white;
+	font-family: serif;
+	font-size: medium;
+}
+header button {
+	padding: 15px 25px 15px 15px;
+	margin-left: 0;
+	position: absolute;
+	left: -30px;
+	top: 30px;
+}
+.titulo {
+	margin-top: 200px;
+}
+.titulo h1, .titulo p {
+	padding: auto;
+}
+.nav-header ul {
+	list-style-type: none;
+	float: right;
+}
+.nav-header li {
+	float: left;
+	padding: 15px;
+}
+.nav-header li:last-child {
+	padding-right: 0;
+}
+.nav-header a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 16px;
+}
+/*Sección: Portafolio*/
+.portafolio {
+	background-color: #EAEAE9;
+	padding-top: 60px;
+}
+.ejemplo {
+	width: 45%;
+	height: 500px;
+	background-color: white;
+	padding: 20px;
+	color: #868683;
+	margin: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.ejemplo p {
+	color: #C5C0BC;
+}
+.ejemplo h2, .ejemplo p {
+	text-align: left;
+	margin-top: 10px;
+}
+.leer {
+	padding: 5px;
+	margin: 5px;
+}
+/*Footer*/
+footer {
+	background-color: #323230;
+	padding: 10px; 
+}
+footer p {
+	color: white;
+
+}
+footer a {
+	text-decoration: none;
+	color: #00AFF0;
+	margin-left: 2px;
+}
+footer img{
+	width: 1.5%
+}

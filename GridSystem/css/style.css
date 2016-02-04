@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+	color: #336699;
+}
+header {
+	padding: 15px 0;
+	margin: 0;
+	color: #EEEEEE;
+	background: #333333;
+	border-bottom: 1px solid #000000;
+}
+.logo {
+	width: 80px;
+	height: 80px;
+}
+nav ul {
+	list-style-type: none;
+	padding-top: 34px;
+	margin: 0 -15px 0 0;
+	float: right;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+nav li {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+nav li:hover a {
+	background: #585858;
+}
+nav a {
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #EEEEEE;
+	text-shadow: 2px 2px 4px #000000;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+/*Primera sección: Latest episodes*/
+.latest {
+	background-color: #EEEEEE;
+	padding: 20px 14px 35px;
+	border-bottom: 1px solid #BBBBBB;
+}
+.latest h3 {
+	color: #333333;
+	float: left;
+}
+.latest a {
+	text-decoration: none;
+	position: relative;
+	top: 3px;
+	color: inherit;
+	font-size: 16px;
+	font-weight: bold;
+}
+.latest a:nth-child(2) {
+	font-size: 12px;
+	padding: 0 0 2px 10px;
+}
+
+.ultimos {
+	margin-left: 0px;
+}
+img {
+	padding: 3px;
+	background-color: white;
+	border: 1px solid #CCCCCC;
+	width: 100%;
+	height: 100%;
+	margin-top: 15px;
+}
+header img {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+} 
+
+figcaption {
+	text-align: center;
+	padding: 0;
+	font-weight: bold;
+}
+/*Segunda sección: Main content*/
+.main {
+	margin: 20px 0;
+}
+.series {
+	margin: 0;
+}
+.series  figure{
+	float: left;
+	width: 115px;
+	height: 115px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 5px;
+}
+.series a {
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: normal;
+	margin-bottom:5px;
+}
+/*Aside*/
+aside {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.subscribe, .apps, .stuff {
+	margin-top: 30px;
+}
+h4 {
+	color: #555555;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #DDDDDD;
+}
+aside img {
+	width: 12px;
+	height: 12px;
+	padding: 0;
+	border: none;
+}
+aside a {
+	font-size: 14px;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.stuff {
+	border-top: 1px solid #DDDDDD;
+	padding-top: 15px;
+}
+aside p {
+	font-size: 14px;
+	color: #555555;
+	line-height: 150%;
+}
+/*Footer*/
+footer {
+	background-color: #585858;
+	padding: 30px 0;
+}
+footer p {
+	color: white;
+	font-size: 14px;
+	line-height: 200%;
+	margin-right: 50px;
+}
+footer a {
+	text-decoration: none;
+	color: #CCCCCC;
+	text-transform: none;
+}
+.final {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+}
+.final:before, .final:after{
+  content: " ";
+  display: table;
+}
+.final:after {
+  clear: both;
+}
+.final ul {
+	float: left;
+	padding-top: 20px;
+}
+.final li{
+	color: #CCCCCC;
+}
+.final a {
+	text-shadow: none;
+	padding: 5px;
+	font-size: 12px;
+}
+.credits {
+	text-align: center;
+	font-size: 11px;
+	color: #999999;
+	margin-top: 20px;
+}

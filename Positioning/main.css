@@ -1,0 +1,33 @@
+* {
+	box-sizing: content-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	width: 200px;
+	height: 200px;
+	}
+#rosa {
+	background-color: #ee3e64;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#azul {
+	background-color: #44accf;
+	position: relative;
+	top: 200px;
+	left: 200px;	
+}
+
+#verde {
+	background-color: #b7d84b;
+	
+}
+#amarillo {
+	background-color: #FFFF00;
+	
+	
+}
